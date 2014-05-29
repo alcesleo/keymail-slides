@@ -8,7 +8,7 @@
 
 <http://notes.xoxco.com/post/27999787765/is-it-time-for-password-less-login>
 
-![](../resources/blogpost.png)
+![](resources/blogpost.png)
 
 ---
 
@@ -46,11 +46,11 @@ end
 
 <http://alcesleo.github.io/keymail/>
 
-![](../resources/docs.png)
+![](resources/docs.png)
 
 ---
 
-<video data-autoplay src="../resources/demo.mov"></video>
+<video data-autoplay src="resources/demo.mov"></video>
 
 ---
 
