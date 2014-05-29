@@ -67,17 +67,21 @@ end
 ---
 
 ```ruby
+## Test ##
 describe Plusser do
   it 'adds numbers together' do
     Plusser.add(5, 4).must_equal 9
   end
 end
 ```
+<!-- .element class="fragment"  -->
 
 ```ruby
+## Implementation ##
 class Plusser
   def self.add(first, second)
     first + second
   end
 end
 ```
+<!-- .element class="fragment"  -->
