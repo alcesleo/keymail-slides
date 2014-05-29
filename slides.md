@@ -2,7 +2,7 @@
 
 <https://github.com/alcesleo/keymail/>
 
----
+=====
 
 ## Where it started
 
@@ -10,13 +10,13 @@
 
 ![](resources/blogpost.png)
 
----
+=====
 
 ## Rails
 
 - A plugin that makes it easy
 
----
+=====
 
 ## Sample code
 
@@ -40,7 +40,7 @@ class SessionsController < ApplicationController
 end
 ```
 
----
+=====
 
 ## Docs
 
@@ -48,23 +48,27 @@ end
 
 ![](resources/docs.png)
 
----
+=====
 
 <video data-autoplay src="resources/demo.mov"></video>
 
----
+=====
+
+### Application
 
 <http://keymail-example.herokuapp.com/>
 
+### Source
+
 <https://github.com/alcesleo/keymail-example>
 
----
+=====
 
 ### TDD
 
 <span style="color: red;">red</span> - <span style="color: green;">green</span> - <span style="color: yellow;">refactor</span>
 
----
+-----
 
 ```ruby
 ## Test ##
@@ -85,3 +89,39 @@ class Plusser
 end
 ```
 <!-- .element class="fragment"  -->
+
+-----
+
+### Running tests
+
+<video data-autoplay src="resources/tests.mov"></video>
+
+-----
+
+### Good (TDD)
+
+- confidence <!-- .element: class="fragment" -->
+- fewer bugs <!-- .element: class="fragment" -->
+- design feedback <!-- .element: class="fragment" -->
+- good code &#8776; easily testable code <!-- .element: class="fragment" -->
+
+-----
+
+### Bad (TDD)
+
+- time consuming?
+- difficult
+- bad tests
+
+-----
+
+### Conclusion (TDD)
+
+- the code is much better
+- time to write test < time to fix bugs
+- do it, seriously
+
+---
+
+<!-- .slide: data-background="resources/github.png" -->
+
