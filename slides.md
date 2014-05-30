@@ -1,16 +1,17 @@
 # Keymail
 
-<https://github.com/alcesleo/keymail/>
+[github.com/alcesleo/keymail](https://github.com/alcesleo/keymail/)
 
 Note:
-- Authentication system via email
-- Don't forget to load up example video
+- _Don't forget to load up example video_
+- Autentisieringssystem via email
+- Det går till så att man skriver in sin email adress, får ett email, klickar på en länk i det mailer, och sen så är man inloggad - inga lösenord behövs
 
 =====
 
 ## Where it started
 
-<http://notes.xoxco.com/post/27999787765/is-it-time-for-password-less-login>
+[notes.xoxco.com/post/27999787765/is-it-time-for-password-less-login](http://notes.xoxco.com/post/27999787765/is-it-time-for-password-less-login)
 
 ![](resources/blogpost.png)
 
@@ -70,14 +71,6 @@ Switch to fullscreen movie
 
 =====
 
-## Docs
-
-[alcesleo.github.io/keymail](http://alcesleo.github.io/keymail/)
-
-![](resources/docs.png)
-
-=====
-
 ### Application
 
 [keymail-example.herokuapp.com](http://keymail-example.herokuapp.com/)
@@ -88,11 +81,24 @@ Switch to fullscreen movie
 
 =====
 
+## Docs
+
+[alcesleo.github.io/keymail](http://alcesleo.github.io/keymail/)
+
+![](resources/docs.png)
+
+=====
+
 # TDD
 
 <!-- .slide: data-background="slateblue" -->
 
 <strong style="color: red;">red</strong> &#8594; <strong style="color: springgreen;">green</strong> &#8594; <strong style="color: yellow;">refactor</strong>
+
+Note:
+- Test Driven Development
+- Först skriver ett misslyckande test
+- Sedan skriver man kod för att få det att lyckas
 
 -----
 
@@ -124,9 +130,13 @@ end
 
 <video data-autoplay src="resources/tests.mov"></video>
 
+Note:
+- Såhär ser det ut när jag kör alla test i projektet
+- Vill ni se mer realistiska exempel kan ni titta på de riktiga testerna på github
+
 -----
 
-### Good (TDD)
+### Good
 
 <!-- .slide: data-background="green" -->
 
@@ -135,9 +145,12 @@ end
 - design feedback <!-- .element: class="fragment" -->
 - good code &#8776; easily testable code <!-- .element: class="fragment" -->
 
+Note:
+- Körbara bevis på att koden fungerar
+
 -----
 
-### Bad (TDD)
+### Bad
 
 <!-- .slide: data-background="red" -->
 
@@ -147,7 +160,7 @@ end
 
 -----
 
-### Conclusion (TDD)
+### Conclusion
 
 <!-- .slide: data-background="skyblue" -->
 
@@ -184,3 +197,10 @@ Continuous Integration, coverage statistics
 [github.com/alcesleo/keymail](http://github.com/alcesleo/keymail/)
 
 [keymail-example.herokuapp.com](http://keymail-example.herokuapp.com/)
+
+@alcesleo
+
+Note:
+- Här är länkarna till projektet och exempelapplikationen, alla andra länkar finns i projektets readme
+- Jag är @alcesleo på twitter och github om ni vill kontakta mig
+- Då får jag tacka för mig
