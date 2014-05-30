@@ -2,6 +2,10 @@
 
 <https://github.com/alcesleo/keymail/>
 
+Note:
+- Authentication system via email
+- Don't forget to load up example video
+
 =====
 
 ## Where it started
@@ -10,15 +14,27 @@
 
 ![](resources/blogpost.png)
 
+Note:
+- Blogpost för ganska länge sen
+- Inte hänt mycket sen dess
+- Bra lösning som jag ville se användas
+
+
 =====
 
-## Rails
+# Rails
 
-- A plugin that makes it easy
+<!-- .slide: data-background="#981a21" -->
+
+Note:
+- Plugin, gem, engine
+- enkelt att använda email istället för lösenord i en rails app
 
 =====
 
 ## Sample code
+
+<!-- .slide: data-background="indigo" -->
 
 ```ruby
 class SessionsController < ApplicationController
@@ -40,35 +56,47 @@ class SessionsController < ApplicationController
 end
 ```
 
+Note:
+Explain step by step
+- request comes in, and sends an email, params comes from the form
+- triggered when
+
+=====
+
+### Quick demo
+
+Note:
+Switch to fullscreen movie
+
 =====
 
 ## Docs
 
-<http://alcesleo.github.io/keymail/>
+[alcesleo.github.io/keymail](http://alcesleo.github.io/keymail/)
 
 ![](resources/docs.png)
 
 =====
 
-<video data-autoplay src="resources/demo.mov"></video>
-
-=====
-
 ### Application
 
-<http://keymail-example.herokuapp.com/>
+[keymail-example.herokuapp.com](http://keymail-example.herokuapp.com/)
 
 ### Source
 
-<https://github.com/alcesleo/keymail-example>
+[github.com/alcesleo/keymail-example](https://github.com/alcesleo/keymail-example/)
 
 =====
 
-### TDD
+# TDD
 
-<span style="color: red;">red</span> - <span style="color: green;">green</span> - <span style="color: yellow;">refactor</span>
+<!-- .slide: data-background="slateblue" -->
+
+<strong style="color: red;">red</strong> &#8594; <strong style="color: springgreen;">green</strong> &#8594; <strong style="color: yellow;">refactor</strong>
 
 -----
+
+<!-- .slide: data-background="indigo" -->
 
 ```ruby
 ## Test ##
@@ -100,6 +128,8 @@ end
 
 ### Good (TDD)
 
+<!-- .slide: data-background="green" -->
+
 - confidence <!-- .element: class="fragment" -->
 - fewer bugs <!-- .element: class="fragment" -->
 - design feedback <!-- .element: class="fragment" -->
@@ -109,19 +139,48 @@ end
 
 ### Bad (TDD)
 
-- time consuming?
-- difficult
-- bad tests
+<!-- .slide: data-background="red" -->
+
+- time consuming? <!-- .element: class="fragment" -->
+- difficult <!-- .element: class="fragment" -->
+- bad tests <!-- .element: class="fragment" -->
 
 -----
 
 ### Conclusion (TDD)
 
-- the code is much better
-- time to write test < time to fix bugs
-- do it, seriously
+<!-- .slide: data-background="skyblue" -->
 
----
+- the code is much better <!-- .element: class="fragment" -->
+- time to write test < time to fix bugs <!-- .element: class="fragment" -->
+- do it, seriously <!-- .element: class="fragment" -->
+
+Note:
+mycket snack om hur, vilka, och hur många tester man ska skriva, något alla verkar vara överens om är att man bör göra det.
+
+-----
 
 <!-- .slide: data-background="resources/github.png" -->
 
+Note:
+Continuous Integration, coverage statistics
+
+=====
+
+### Help me
+
+<!-- .slide: data-background="dodgerblue" -->
+
+- use it
+- spread the word
+- contribute
+
+=====
+
+### Many thanks!
+
+<!-- .slide: data-background="blueviolet" -->
+
+[github.com/alcesleo/keymail](http://github.com/alcesleo/keymail/)
+
+[keymail-example.herokuapp.com](http://keymail-example.herokuapp.com/)
