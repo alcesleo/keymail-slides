@@ -5,7 +5,6 @@
 Note:
 - _Don't forget to load up example video_
 - Autentisieringssystem via email
-- Det går till så att man skriver in sin email adress, får ett email, klickar på en länk i det mailer, och sen så är man inloggad - inga lösenord behövs
 
 =====
 
@@ -18,8 +17,7 @@ Note:
 Note:
 - Blogpost för ganska länge sen
 - Inte hänt mycket sen dess
-- Bra lösning som jag ville se användas
-
+- Bra lösning som jag ville se användas i praktiken
 
 =====
 
@@ -59,8 +57,6 @@ end
 
 Note:
 Explain step by step
-- request comes in, and sends an email, params comes from the form
-- triggered when
 
 =====
 
@@ -97,7 +93,7 @@ Switch to fullscreen movie
 
 Note:
 - Test Driven Development
-- Först skriver ett misslyckande test
+- Först skriver man ett misslyckande test
 - Sedan skriver man kod för att få det att lyckas
 
 -----
@@ -169,14 +165,14 @@ Note:
 - do it, seriously <!-- .element: class="fragment" -->
 
 Note:
-mycket snack om hur, vilka, och hur många tester man ska skriva, något alla verkar vara överens om är att man bör göra det.
+Mycket snack om hur, vilka, och hur många tester man ska skriva, något alla verkar vara överens om är att man bör göra det.
 
 -----
 
 <!-- .slide: data-background="resources/github.png" -->
 
 Note:
-Continuous Integration, coverage statistics
+Continuous Integration, coverage statistics...
 
 =====
 
@@ -203,4 +199,4 @@ Continuous Integration, coverage statistics
 Note:
 - Här är länkarna till projektet och exempelapplikationen, alla andra länkar finns i projektets readme
 - Jag är @alcesleo på twitter och github om ni vill kontakta mig
-- Då får jag tacka för mig
+- Tack!
